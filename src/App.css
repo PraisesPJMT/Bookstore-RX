@@ -1,1 +1,66 @@
 /* App Styles */
+
+#root {
+  background: #fafafa;
+  height: 100vh;
+}
+
+/* Header Styles */
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  height: 2rem;
+  padding: 1.5rem 6rem;
+  background-color: #fff;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0290ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  scale: 1.02;
+}
+
+.nav {
+  padding: 1rem 1rem;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  color: #121212;
+  opacity: 0.5;
+  padding: 1rem 1.5rem;
+}
+
+.nav a:hover {
+  color: #0290ff;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.nav .active {
+  opacity: 1;
+}
+
+.profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon {
+  color: #0290ff;
+  font-size: 1.7rem;
+}
