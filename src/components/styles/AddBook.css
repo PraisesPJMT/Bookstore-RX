@@ -1,0 +1,54 @@
+.subtitle {
+  padding: 0 0 0.5rem 0;
+}
+
+.add-book-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 0 1rem;
+  color: #c4c4c4;
+  font-family: 'Montserrat', sans-serif;
+  height: 3rem;
+}
+
+.input:focus {
+  outline: 1px solid #0290ff;
+  color: #0290ff;
+  font-weight: 600;
+}
+
+.title-input {
+  width: 50%;
+}
+
+.author-input {
+  width: 30%;
+}
+
+.add-book-btn {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: 700;
+  color: #fff;
+  background: #0290ff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease-in-out;
+  height: 3rem;
+}
+
+.add-book-btn:hover {
+  font-weight: 900;
+  color: #0290ff;
+  background: #fff;
+  border: 2px solid #0290ff;
+}

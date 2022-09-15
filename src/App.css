@@ -2,7 +2,8 @@
 
 #root {
   background: #fafafa;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 /* Header Styles */
@@ -14,6 +15,7 @@
   padding: 1.5rem 6rem;
   background-color: #fff;
   align-items: center;
+  border: solid 1px #e8e8e8;
 }
 
 .logo {
@@ -28,7 +30,7 @@
 }
 
 .nav {
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   margin-right: auto;
   display: flex;
   align-items: center;
@@ -37,7 +39,7 @@
 .nav a {
   color: #121212;
   opacity: 0.5;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .nav a:hover {
@@ -48,6 +50,8 @@
 
 .nav .active {
   opacity: 1;
+  font-weight: 600;
+  border-bottom: 3px solid #0290ff;
 }
 
 .profile {
@@ -67,6 +71,11 @@
 
 .book-page {
   padding: 2.3rem 6rem;
+}
+
+.book-page hr {
+  border: 2px solid #e8e8e8;
+  margin: 2.5rem 0;
 }
 
 .books {

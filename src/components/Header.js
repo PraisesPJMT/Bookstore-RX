@@ -8,7 +8,7 @@ const Header = () => {
     {
       id: 1,
       name: 'BOOKS',
-      ref: '/books',
+      ref: '/',
     },
     {
       id: 2,

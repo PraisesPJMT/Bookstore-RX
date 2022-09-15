@@ -1,6 +1,7 @@
 import React from 'react';
 import bookCatalog from '../components/mockBooks';
 import Book from '../components/Book';
+import AddBook from '../components/AddBook';
 
 const BookPage = () => {
   const books = bookCatalog.map((book) => (
@@ -19,6 +20,8 @@ const BookPage = () => {
       <div className="books">
         { books }
       </div>
+      <hr />
+      <AddBook />
     </div>
   );
 };
