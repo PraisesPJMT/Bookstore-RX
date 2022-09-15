@@ -64,3 +64,13 @@
   color: #0290ff;
   font-size: 1.7rem;
 }
+
+.book-page {
+  padding: 2.3rem 6rem;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

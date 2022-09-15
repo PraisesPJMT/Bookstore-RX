@@ -1,0 +1,157 @@
+.book {
+  display: flex;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+.book-info {
+  margin-right: auto;
+}
+
+.book-tag {
+  color: #121212;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.book-title {
+  color: #121212;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.book-author{
+  color: #4386bf;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.book-actions {
+  padding: 1rem 0;
+}
+
+.book-btn,
+.update-btn {
+  cursor: pointer;
+}
+
+.book-btn {
+  color: #4386bf;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  background: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.book-btn:hover {
+  font-weight: 700;
+}
+
+.comment-btn {
+  padding-right: 1rem;
+}
+
+.remove-btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 2px solid #e8e8e8;
+  border-right: 2px solid #e8e8e8;
+}
+
+.edit-btn {
+  padding-left: 1rem;
+}
+
+.book-logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.progress-divider {
+  border: 2px solid #e8e8e8;
+  padding: 0 2.5rem;
+  rotate: 90deg;
+  width: 1px;
+}
+
+.chapter-info {
+  width: 50%;
+}
+
+.chapter,
+.current-chapter {
+  font-family: 'Roboto Slab', serif;
+  color: #121212;
+}
+
+.chapter {
+  font-size: 0.8rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.current-chapter {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+
+.update-btn {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #fff;
+  background: #0290ff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.update-btn:hover {
+  font-weight: 900;
+  color: #0290ff;
+  background: #fff;
+  border: 2px solid #0290ff;
+}
+
+.book-progress-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.book-progress,
+.book-progress-status {
+  font-family: 'Montserrat', sans-serif;
+  color: #121212;
+}
+
+.book-progress {
+  font-size: 2rem;
+}
+
+.book-progress-status {
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+
+.book-progress-bar {
+  border-top: 5px solid #379cf6;
+  border-right: 5px solid #379cf6;
+  border-bottom: 5px solid #379cf6;
+  border-left: 5px solid #e8e8e8;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  rotate: 45deg;
+}
