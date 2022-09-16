@@ -31,24 +31,3 @@
 .author-input {
   width: 30%;
 }
-
-.add-book-btn {
-  font-family: 'Roboto Slab', serif;
-  font-size: 0.813rem;
-  font-weight: 700;
-  color: #fff;
-  background: #0290ff;
-  border: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
-  margin: 1rem 0;
-  transition: all 0.2s ease-in-out;
-  height: 3rem;
-}
-
-.add-book-btn:hover {
-  font-weight: 900;
-  color: #0290ff;
-  background: #fff;
-  border: 2px solid #0290ff;
-}

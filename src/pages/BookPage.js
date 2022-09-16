@@ -17,7 +17,7 @@ const BookPage = () => {
 
   return (
     <div className="book-page">
-      <div className="books">
+      <div className="books-container">
         { books }
       </div>
       <hr />
