@@ -19,7 +19,7 @@
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #0290ff;
   transition: all 0.2s ease-in-out;
@@ -40,6 +40,7 @@
   color: #121212;
   opacity: 0.5;
   padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
 }
 
 .nav a:hover {
@@ -62,6 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .profile-icon {

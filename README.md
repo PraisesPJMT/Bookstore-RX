@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Bookstore-RX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> The Bookstore is a website similar to "Awesome Books" website. This version simple website that displays a list of books and allows you to:
+> - Display a list of books.
+> - Add a book.
+> - Remove a selected book.
+> - Discus about a book by making comments
 
-## Available Scripts
+## Preview
+![App Preview](src/assets/app-preview.jpeg)
 
-In the project directory, you can run:
+## Built With (Linter)
 
-### `npm start`
+- ReactJS
+- JavaScript (Eslint)
+- CSS (Stylelint)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
+The following applications are required to be installed for the project to run!
+- Modern browser e.g [Google Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?r=1), [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) etc.
+- [Node.js](https://nodejs.org/en/download/) LTS version
+- [Git](https://git-scm.com/downloads)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## App Setup
+- Clone [this](https://github.com/PraisesPJMT/Bookstore-RX.git) GitHub repository using `git clone git@github.com:PraisesPJMT/Bookstore-RX.git`
+- Download all required modules using `npm install` inside the project directory (/Bookstore-RX)
+- Launch project on browser using `npm start` inside the project directory (/Bookstore-RX)
+    - This should launch the app on the browser
+    - If the app is not opened immediately, then open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+## App Deployment
+App deployment is coming soon...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Authors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👤 **Praises Tula**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
+- Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
+- LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contributing
 
-### `npm run eject`
+Contributions, [issues](https://github.com/PraisesPJMT/Bookstore-RX/issues), and feature requests are welcome!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⭐️ Show your support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Give a ⭐️ if you like this project!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Hat tip to anyone whose code was used
+- Hat tip to you for checking out this amazing project.
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
