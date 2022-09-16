@@ -1,0 +1,33 @@
+.subtitle {
+  padding: 0 0 0.5rem 0;
+}
+
+.add-book-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 0 1rem;
+  color: #c4c4c4;
+  font-family: 'Montserrat', sans-serif;
+  height: 3rem;
+}
+
+.input:focus {
+  outline: 1px solid #0290ff;
+  color: #0290ff;
+  font-weight: 600;
+}
+
+.title-input {
+  width: 50%;
+}
+
+.author-input {
+  width: 30%;
+}
