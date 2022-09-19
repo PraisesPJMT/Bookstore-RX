@@ -1,31 +1,23 @@
-const ADD_CATEGORY = 'bookstore-rx/categoryReducer/ADD_CATEGORY';
-const REMOVE_CATEGORY = 'bookstore-rx/categoryReducer/REMOVE_CATEGORY';
+const CHECK_STATUS = 'bookstore-rx/categoryReducer/CHECK_STATUS';
 
 const initialCategoriesState = [];
 
-const addCategory = () => (
+const checkStatus = (book) => (
   {
-    type: ADD_CATEGORY,
-  }
-);
-
-const removeCategory = () => (
-  {
-    type: REMOVE_CATEGORY,
+    type: CHECK_STATUS,
+    id: book.id,
   }
 );
 
 const categoryReducer = (state = initialCategoriesState, action) => {
   switch (action.type) {
-    case ADD_CATEGORY:
-      return state; // Return action will be changed later
-    case REMOVE_CATEGORY:
-      return state; // Return action will be changed later
+    case CHECK_STATUS:
+      return 'Under construction'; // Return action will be changed later
     default:
       return state;
   }
 };
 
-export { addCategory, removeCategory };
+export { checkStatus };
 
 export default categoryReducer;
