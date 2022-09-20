@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import './styles/Book.css';
 
 const Book = ({
-  title, author, tag, progress, chapter,
+  title, author,
 }) => (
   <div className="book">
     <div className="book-info">
-      <p className="book-tag">{tag}</p>
+      <p className="book-tag">Action</p>
       <p className="book-title">{title}</p>
       <p className="book-author">{author}</p>
       <div className="book-actions">
@@ -36,8 +36,7 @@ const Book = ({
         <div className="book-progress-bar" />
         <div className="book-progress-container">
           <p className="book-progress">
-            {progress}
-            %
+            64%
           </p>
           <p className="book-progress-status">Completed</p>
         </div>
@@ -50,7 +49,7 @@ const Book = ({
           CURRENT CHAPTER
         </p>
         <p className="current-chapter">
-          {chapter}
+          Introduction
         </p>
         <button
           className="update-btn"
@@ -66,9 +65,6 @@ const Book = ({
 Book.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  progress: PropTypes.number.isRequired,
-  tag: PropTypes.string.isRequired,
-  chapter: PropTypes.string.isRequired,
 };
 
 export default Book;

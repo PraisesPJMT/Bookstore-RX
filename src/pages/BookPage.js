@@ -1,17 +1,15 @@
 import React from 'react';
-import bookCatalog from '../components/mockBooks';
+import { useSelector } from 'react-redux';
 import Book from '../components/Book';
 import AddBook from '../components/AddBook';
 
 const BookPage = () => {
+  const bookCatalog = useSelector((state) => state.books);
   const books = bookCatalog.map((book) => (
     <Book
       key={book.id}
       title={book.title}
       author={book.author}
-      tag={book.tag}
-      progress={book.progress}
-      chapter={book.chapter}
     />
   ));
 
