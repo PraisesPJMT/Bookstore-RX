@@ -3,12 +3,12 @@ const REMOVE_BOOK = 'bookstore-rx/bookReducer/REMOVE_BOOK';
 
 const initialBooksState = [];
 
-const addBook = (book) => (
+const addBook = ({ id, title, author }) => (
   {
     type: ADD_BOOK,
-    id: book.id,
-    title: book.title,
-    author: book.author,
+    id,
+    title,
+    author,
   }
 );
 
