@@ -11,6 +11,9 @@ const BookPage = () => {
       id={book.id}
       title={book.title}
       author={book.author}
+      tag={book.tag}
+      progress={book.progress}
+      chapter={book.chapter}
     />
   ));
 
