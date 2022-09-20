@@ -12,10 +12,10 @@ const addBook = ({ id, title, author }) => (
   }
 );
 
-const removeBook = (book) => (
+const removeBook = (id) => (
   {
     type: REMOVE_BOOK,
-    id: book.id,
+    id,
   }
 );
 
