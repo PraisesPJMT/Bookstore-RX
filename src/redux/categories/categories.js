@@ -2,10 +2,9 @@ const CHECK_STATUS = 'bookstore-rx/categoryReducer/CHECK_STATUS';
 
 const initialCategoriesState = [];
 
-const checkStatus = (book) => (
+const checkStatus = () => (
   {
     type: CHECK_STATUS,
-    id: book.id,
   }
 );
 
