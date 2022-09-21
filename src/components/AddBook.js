@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/AddBook.css';
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as randomID } from 'uuid';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/books';
 
@@ -10,16 +10,19 @@ const AddBook = () => {
     event.preventDefault();
     const { title } = event.target.parentElement.elements;
     const { author } = event.target.parentElement.elements;
+    const { category } = event.target.parentElement.elements;
 
-    if (title.value.trim() && author.value.trim()) {
+    if (title.value.trim() && author.value.trim() && category.value.trim()) {
       const book = {
-        id: uuidv4(),
+        id: randomID(),
         title: title.value,
         author: author.value,
+        category: category.value,
       };
       dispatch(addBook(book));
       title.value = '';
       author.value = '';
+      category.value = '';
     }
   };
   return (
@@ -28,42 +31,38 @@ const AddBook = () => {
       <form
         className="add-book-form"
       >
-        <div className="add-book-info1">
-          <input
-            className="input title-input"
-            name="title"
-            type="text"
-            placeholder="Book title"
-          />
-          <input
-            className="input author-input"
-            name="author"
-            type="text"
-            placeholder="Book author"
-          />
-        </div>
-        <div className="add-book-info2">
-          <input
-            className="input category-input"
-            name="category"
-            type="text"
-            placeholder="Category"
-            list="category"
-          />
-          <button
-            className="add-book-btn"
-            type="button"
-            onClick={handleBookAddition}
-          >
-            ADD BOOK
-          </button>
-        </div>
+        <input
+          className="input title-input"
+          name="title"
+          type="text"
+          placeholder="Book title"
+        />
+        <input
+          className="input author-input"
+          name="author"
+          type="text"
+          placeholder="Book author"
+        />
+        <input
+          className="input category-input"
+          name="category"
+          type="text"
+          placeholder="Category"
+          list="category"
+        />
+        <button
+          className="add-book-btn"
+          type="button"
+          onClick={handleBookAddition}
+        >
+          ADD BOOK
+        </button>
 
         <datalist
           className="category-list"
           id="category"
         >
-          <option value="General" selected="true">General</option>
+          <option value="General">General</option>
           <option value="Action">Action</option>
           <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
