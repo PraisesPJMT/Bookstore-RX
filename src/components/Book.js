@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
 
 const Book = ({
-  id, title, author, tag, progress, chapter,
+  id, title, author, tag,
 }) => {
   const dispatch = useDispatch();
   const handleBookRemoval = () => {
@@ -43,10 +43,7 @@ const Book = ({
         <div className="book-progress-wrapper">
           <div className="book-progress-bar" />
           <div className="book-progress-container">
-            <p className="book-progress">
-              {progress}
-              %
-            </p>
+            <p className="book-progress">0%</p>
             <p className="book-progress-status">Completed</p>
           </div>
         </div>
@@ -58,7 +55,7 @@ const Book = ({
             CURRENT CHAPTER
           </p>
           <p className="current-chapter">
-            {chapter}
+            Introduction
           </p>
           <button
             className="update-btn"
@@ -77,8 +74,6 @@ Book.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
-  progress: PropTypes.number.isRequired,
-  chapter: PropTypes.string.isRequired,
 };
 
 export default Book;
