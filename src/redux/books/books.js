@@ -26,12 +26,13 @@ const addBook = (book) => async (dispatch) => {
   });
 };
 
-const removeBook = (id) => (
-  {
+const removeBook = (id) => async (dispatch) => {
+  await axios.delete(`${baseURL}/${id}`);
+  return dispatch({
     type: REMOVE_BOOK,
     id,
-  }
-);
+  });
+};
 
 const fetchBooks = () => async (dispatch) => {
   const fetchResponse = await axios.get(baseURL);
