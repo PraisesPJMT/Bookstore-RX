@@ -2,12 +2,6 @@
   padding: 0 0 0.5rem 0;
 }
 
-.add-book-form {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .input {
   background: #fff;
   border: 1px solid #e8e8e8;
@@ -22,12 +16,4 @@
   outline: 1px solid #0290ff;
   color: #0290ff;
   font-weight: 600;
-}
-
-.title-input {
-  width: 50%;
-}
-
-.author-input {
-  width: 30%;
 }
