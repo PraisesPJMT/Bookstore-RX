@@ -147,8 +147,8 @@
 
 .book-progress-bar {
   border-top: 5px solid #379cf6;
-  border-right: 5px solid #379cf6;
-  border-bottom: 5px solid #379cf6;
+  border-right: 5px solid #e8e8e8;
+  border-bottom: 5px solid #e8e8e8;
   border-left: 5px solid #e8e8e8;
   width: 4rem;
   height: 4rem;

@@ -43,7 +43,7 @@ const Book = ({
         <div className="book-progress-wrapper">
           <div className="book-progress-bar" />
           <div className="book-progress-container">
-            <p className="book-progress">0%</p>
+            <p className="book-progress">10%</p>
             <p className="book-progress-status">Completed</p>
           </div>
         </div>
