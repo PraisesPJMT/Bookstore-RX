@@ -2,13 +2,21 @@
   padding: 0 0 0.5rem 0;
 }
 
+.add-book-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .input {
   background: #fff;
   border: 1px solid #e8e8e8;
   border-radius: 4px;
   padding: 0 1rem;
-  color: #c4c4c4;
+  color: #383838;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   height: 3rem;
 }
 
