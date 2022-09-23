@@ -9,12 +9,14 @@ import BookPage from './pages/BookPage';
 import CategoriesPage from './pages/CategoriesPage';
 
 const App = () => (
-  <Router>
+  <Router path="/">
     <Header />
-    <Routes>
-      <Route path="/" element={<BookPage />} />
-      <Route path="/categories" element={<CategoriesPage />} />
-    </Routes>
+    <main>
+      <Routes>
+        <Route path="/" element={<BookPage />} />
+        <Route path="/categories" element={<CategoriesPage />} />
+      </Routes>
+    </main>
   </Router>
 );
 
